@@ -4,7 +4,6 @@ import campusconnect from '../images/campusconnect.png';
 import aggieville from '../images/aggieville.png';
 import wheresperry from '../images/wheresperry.png';
 
-
 import '../styles/Coding.css';
 
 export default function Coding() {
