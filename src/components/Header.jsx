@@ -13,9 +13,9 @@ export default function Header() {
                     <a href="/">{/* logo image here <img src={nav_logo} alt='Palina Karzhenka Site Logo' /> */}</a>
                 </div>
                 <div className="header_left">
-                    <a href="#coding">TECHNICAL</a>
-                    <a href="#studio-art">STUDIO ART</a>
-                    <a href="#about">ABOUT</a>
+                    <a href="/technical">TECHNICAL</a>
+                    <a href="/studio-art">STUDIO ART</a>
+                    <a href="/about">ABOUT</a>
                 </div>
                 <div className="header_right">
                     <Link target={"_blank"} to="https://www.linkedin.com/in/palina-karzhenka"><img src={linkedin} alt='LinkedIn Icon' /></Link>
