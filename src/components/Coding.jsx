@@ -1,4 +1,4 @@
-import { CodingCard } from './CodingCard';
+import CodingCard from './CodingCard';
 import filmreviews from '../images/filmreviews.png';
 import campusconnect from '../images/campusconnect.png';
 import aggieville from '../images/aggieville.png';

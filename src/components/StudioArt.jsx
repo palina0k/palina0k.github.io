@@ -1,4 +1,4 @@
-import { StudioCard } from './StudioCard';
+import StudioCard from './StudioCard';
 //import images for paintings
 
 import '../styles/StudioArt.css';
