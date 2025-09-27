@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import '../styles/CodingCard.css';
 
-export default function StudioCard({title, description, image, linkURL}) {
+export default function CodingCard({title, description, image, linkURL}) {
     return (
         <div className="page">
             <Link to={linkURL} target={"_blank"} className="mouse_over" title="Click to Learn More"><img src={image} alt={title} /></Link>
