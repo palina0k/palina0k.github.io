@@ -1,0 +1,22 @@
+.about_container {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 20%;
+}
+
+.info_container {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+}
+
+.split_half {
+    width: 50%;
+}
+
+.headshot {
+    width: 30%;
+    max-height: 300px;
+    height: auto;
+    object-fit: contain;
+}

@@ -1,0 +1,24 @@
+.page {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    /* bottom */
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.mouse_over:hover {
+    opacity: 50%;
+}
+
+.overview {
+    display:flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+}
