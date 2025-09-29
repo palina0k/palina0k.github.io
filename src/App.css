@@ -1,9 +1,9 @@
 .content {
   font-family: 'Playfair Display', serif;
-  /* font-family, font-style, background-color */
+  /* font-family, font-style */
+  background-color: #dce9ed;
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
 }
 
 #root {
@@ -43,6 +43,6 @@ h5 {
 }
 
 h6 {
-  font-size: 15px;
+  font-size: 18px;
   /* font size, font-weight, color */
 }

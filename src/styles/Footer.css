@@ -1,4 +1,16 @@
 .footer_container {
+    background-color: #83c5c034;
     text-align: center;
-    /* padding: 15px; */
+    padding: 8px;
+    max-height: 130px;
 }
+
+/* .general {
+    padding: 20px;
+    text-align: center;
+}
+
+.updates {
+    padding: 20px;
+    text-align: right;
+} */

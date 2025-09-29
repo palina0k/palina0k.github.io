@@ -1,22 +1,35 @@
 .about_container {
     display: flex;
     flex-direction: column;
-    padding: 100px 20%;
+    padding: 200px 20%;
+    h6 {
+        font-weight: lighter;
+    }
+    h6 strong {
+        font-weight: bold !important;
+    }
 }
 
 .info_container {
     display: flex;
     flex-direction: row;
-    gap: 5%;
+    gap: 10%;
 }
 
 .split_half {
     width: 50%;
+    img {
+        height: 40px;
+    }
+    img:hover {
+        opacity: 50%;
+    }
 }
 
 .headshot {
-    width: 30%;
-    max-height: 300px;
-    height: auto;
-    object-fit: contain;
+    img {
+        width: 20%;
+        max-height: 340px;
+        border-radius: 20px;
+    }
 }
