@@ -5,6 +5,7 @@ import Home from './components/Home';
 import Coding from './components/Coding';
 import StudioArt from './components/StudioArt';
 import About from './components/About';
+import ScrollToTop from './components/ScrollToTop';
 
 import './App.css';
 
@@ -12,6 +13,7 @@ export default function App() {
   return (
     <div className='content'>
       <Header />
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/technical" element={<Coding />} />

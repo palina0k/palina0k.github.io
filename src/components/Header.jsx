@@ -13,6 +13,7 @@ export default function Header() {
                     <a href="/">{ logo image here <img src={nav_logo} alt='Palina Karzhenka Site Logo' /> }</a>
                 </div> */}
                 <div className="header_left">
+                    <Link to="/" id="home" ><h5>HOME</h5></Link>
                     <Link to="/technical" id="tech" ><h5>TECHNICAL</h5></Link>
                     <Link to="/studio-art" id="art" ><h5>STUDIO ART</h5></Link>
                     <Link to="/about" id="abt" ><h5>ABOUT</h5></Link>
